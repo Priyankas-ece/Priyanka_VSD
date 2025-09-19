@@ -25,3 +25,5 @@ The video explains the complete flow of designing a processor, starting from cod
    - Specs vs. RTL design  
    - SoC integration vs. RTL  
    - Final chip vs. SoC  
+
+<img width="361" height="285" alt="soc_w1 drawio" src="https://github.com/user-attachments/assets/5f401d0b-64c7-4634-94de-8fcbf6907dca" />
