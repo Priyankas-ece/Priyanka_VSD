@@ -1,0 +1,24 @@
+### Digital VLSI SoC Design And Planning
+  The video explains the complete flow of designing a processor, starting from code specification, moving through RTL, synthesis, physical design, SoC integration, and ending with verification and tape-out.
+
+## About SoC (System-on-Chip)
+- Combines processor core + memory elements + peripherals (Macros which are synthesis RTL and Analog IP which are Functional RTL), UART, SPI, GPIO, etc. into a single chip.
+- SoC design ensures processor works with all peripherals.
+- This enables VLSI technology's ability to place millions of transistors on a single die, reduces physical size, power consumption and cost while enhancing performance and functionality in devices.
+- Example: smartphones, tablets, and laptops. 
+
+## Flow of work
+#Specs → RTL design → Processor → Peripherals → SoC Integration
+  - Specifications define functional requirements.
+  - RTL development for processor core.
+  - Add peripherals like timers, GPIO, UART.
+  - Integration into SoC bus/interconnect.
+  - Verification at each level with test benches.
+
+## Key Takeaways
+1. Processor design follows a structured flow: specifications → RTL → synthesis → GDS → tape-out.
+2. SoC (System-on-Chip) integrates processor cores with peripherals to form a complete system.
+3. Verification and test benches are critical at every stage of the design flow. 
+    - verification of RTL Design and Specs.
+    - verification of SoC Integration and RTL Design.
+    - verification of Chip and SoC.
