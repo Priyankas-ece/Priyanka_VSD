@@ -32,7 +32,6 @@ iverilog -V
 **Verification:**
 gtkwave --version
 
-<img width="1920" height="921" alt="Screenshot from 2025-09-20 14-32-49" src="https://github.com/user-attachments/assets/816b75ee-b472-4bce-895f-faee915e68a3" />
+<img width="1920" height="895" alt="Screenshot from 2025-09-20 14-32-49" src="https://github.com/user-attachments/assets/93369ca4-6e9c-405a-b2b6-1cf31897db21" />
 
-<img width="1920" height="921" alt="Screenshot from 2025-09-20 14-33-18" src="https://github.com/user-attachments/assets/f8fd511c-68b1-4259-af2c-bd190192834c" />
-
+<img width="1920" height="888" alt="Screenshot from 2025-09-20 14-33-18" src="https://github.com/user-attachments/assets/5503d050-898b-44bd-aed6-e9210e245730" />
