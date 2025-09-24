@@ -38,7 +38,7 @@
     - WIDE Transistors: provides low delay with more area and power.
     - NARROW Transistors: provides more delay with less area and power.
 
-# Faster Cells (LVT - Low Voltage Threshold)
+### Faster Cells (LVT - Low Voltage Threshold)
 Advantages:
 - Higher switching speed
 - Better performance on critical paths
@@ -47,7 +47,7 @@ Disadvantages:
 - Increased static power consumption
 - More sensitive to process variations
 
-# Slower Cells (HVT - High Voltage Threshold)
+### Slower Cells (HVT - High Voltage Threshold)
 Advantages:
 - Lower leakage power
 - Better power efficiency
