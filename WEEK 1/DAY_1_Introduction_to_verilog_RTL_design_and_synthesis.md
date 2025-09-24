@@ -62,14 +62,18 @@ Disadvantages:
 - 'Yosys' is used for the synthesis of RTL design.
 
 ## Icarus Verilog (iverilog) Setup
-` iverilog design_filename.v testbench_filename.v
-` ./a.out
-` gtkwave testbench_filename.v
+```bash
+iverilog design_filename.v testbench_filename.v
+./a.out
+gtkwave testbench_filename.v
+```
 
 ## Yosys Setup
-` yosys
-` read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025c_1v80.lib
-` read_verilog design_filename.v
-` synth -top module_name
-` abc -liberty ../lib/sky130_fd_sc_hd__tt_025c_1v80.lib
-` show
+```bash
+yosys
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025c_1v80.lib
+read_verilog design_filename.v
+synth -top module_name
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025c_1v80.lib
+show
+```
