@@ -85,7 +85,9 @@ gtkwave testbench.vcd
 
 ## RTL vs GLS results of some codes:
 <img width="1850" height="895" alt="d4_terop_badmux" src="https://github.com/user-attachments/assets/9fbe3ff3-ef29-4e78-bbf6-6daad52aeb80" />
+
 ### Ternary Operator
+
 RTL Stimulation results:
 <img width="1850" height="895" alt="d4_terop" src="https://github.com/user-attachments/assets/18e71c52-443f-48e3-8d98-d1c99f5ad974" />
 GLS Stimulation results:
@@ -94,6 +96,7 @@ Synthesis results:
 <img width="1850" height="895" alt="d4_tern op" src="https://github.com/user-attachments/assets/236fff86-c770-46ab-86e0-dab7763579a9" />
 
 ### Bad Mux
+
 RTL Stimulation results:
 <img width="1850" height="895" alt="d4_badmux" src="https://github.com/user-attachments/assets/1936bb16-6f87-46d1-b5c4-fbd60b7d2cb3" />
 GLS Stimulation results:
@@ -102,6 +105,7 @@ Synthesis results:
 <img width="1850" height="895" alt="d4_bad mux" src="https://github.com/user-attachments/assets/6b41809d-9889-44c2-9bf1-375fed078e03" />
 
 ### Blocking caveat
+
 <img width="1664" height="863" alt="d4_block caveat" src="https://github.com/user-attachments/assets/84be10e4-b237-4043-8390-f34809979e79" />
 RTL Stimulation results:
 <img width="1850" height="895" alt="d4_block cav" src="https://github.com/user-attachments/assets/fb27e633-58a9-44f6-a006-5b89498880ea" />
