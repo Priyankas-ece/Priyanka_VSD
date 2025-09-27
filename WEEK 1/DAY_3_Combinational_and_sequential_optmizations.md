@@ -28,6 +28,14 @@ After optimization:
 ```verilog
 assign y = a ^~ c; 
 ```
+### Commands for Optimisation in Yosys
+```bash
+yosys> read_verilog design.v
+yosys> synth -top top_module
+yosys> opt_clean -purge
+yosys> abc -liberty ../lib/sky130_fd_sc_hd_tt_025c_1v80.lib
+yosys> write_verilog design_opt.v
+```
 
 ### Examples
 <img width="1664" height="863" alt="d3_optcheck123" src="https://github.com/user-attachments/assets/dee397b4-e87d-4f08-ab3c-dde29b8f4754" />
